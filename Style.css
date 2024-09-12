@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border:border-box;
+}
+.headerimage{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 70px;
+    width: 115px;
+    background-image: url("top.png");
+    background-size: cover;
+}
+.navbar{
+    height: 47px;
+    background-color:#2d3748;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight:lighter;
+}
+a:hover{
+    color: rgb(146, 55, 22);
+}
+.background_image{
+    height: 500px;
+    background-image:url("new2.jpg") ;
+    background-size:cover;
+}
+#h1{
+    color: rgb(146, 55, 22);
+    position: absolute;
+    top: 210px;
+    left: 400px;
+}
+#h2{
+    color: rgb(146, 55, 22);
+    position:absolute;
+    top: 260px;
+    left: 355px;
+}
+#p1{
+    color:white;
+    position:absolute;
+    top:310px;
+    left:50px;
+}
+button{
+    color:#ffffff;
+    background-color:#61CE7000;
+    position: absolute;
+    top: 360px;
+    left: 400px;
+    height: 30px;
+    width: 75px;
+}
+button:hover{
+    color: rgb(146, 55, 22);
+    border: 2px solid rgb(146, 55, 22);
+}
+#info{
+    height: 180px;
+    width: 350px;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-weight: lighter;
+    font-size: 14px;
+    display:inline-block;
+}
+#dumpal{
+    height: 280px;
+    width: 390px;
+    display:inline-block;
+    background-image: url("dumpal.avif");
+    background-size: cover;
+    position:relative;
+    left: 100px;
+    top: 50px;
+}
+#laydoun{
+    height: 280px;
+    width: 390px;
+    display:inline-block;
+    background-image: url("laydoun.avif");
+    background-size: cover;
+}
+#info2{
+    height: 180px;
+    width: 350px;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-weight: lighter;
+    font-size: 14px;
+    display:inline-block;
+}
+#info3{
+    height: 180px;
+    width: 350px;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-weight: lighter;
+    font-size: 14px;
+    display:inline-block;
+}
+#gym{
+    height: 280px;
+    width: 390px;
+    display:inline-block;
+    background-image: url("gym.jpg");
+    background-size: cover;
+    position:relative;
+    left: 100px;
+    top: 50px;
+}
+.fnav{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.fnav:hover{
+    color: rgb(146, 55, 22);
+    /* border: 2px solid rgb(146, 55, 22); */
+}
+footer{
+    background-color:#2d3748;
+    height: 70px;
+    position: relative; 
+    top: 80px; 
+    display: flex;
+     justify-content:center;
+  align-items: center;
+}
